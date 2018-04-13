@@ -1,0 +1,141 @@
+.display-page  {
+  @media (min-width: 993px) and (max-width: 1500px){ 
+    // navbar + undernavbar zone : begin
+    .navbar-style-top{
+      background-color: #0f7675 !important;
+      border-radius: 0px;
+      padding-top: 10px;
+    }
+    .nav-item a{
+      font-size: 16px;
+      padding-top: 0px ;
+      color: white !important;
+    }
+    .undernavbar-style{
+      box-sizing: border-box;
+      width: 100%;
+      height: 228px;
+      border-radius: 0px;
+      background-color: #0f7675;
+        .title{
+        color:white;
+        font-size: 30px;
+        text-align: center;
+        }
+        .string{
+          color: white;
+          font-size: 15px;
+          text-align: center;
+        }
+    }
+    // navbar + undernavbar zone : end
+
+    // fontawesome-zone begin 
+    .row .text-field {
+      font-size: 16px;
+      line-height: 25px;
+      text-align: center;
+      font-color: black;
+    }
+    .row .font-block{
+      text-align: center;
+    }
+    .awesome .fontawesome-rectangle::before{
+      height: 118px;
+      display: block;
+      position: absolute;
+      content: '';
+      border-top-style: hidden;
+      border-right: 3px solid #F1F1F1;
+      border-bottom-style: hidden;
+      border-left-style: hidden;
+      left: 100%;
+    }
+    .fontawesome{
+      i{
+        color: #0f7675;
+      }
+      .lorem-text{
+        text-align: center;
+        font-size: 16px;
+      }
+    }  
+    // fontawesome-zone end
+    
+    // develop-zone : begin
+    .row .horizontal-line{
+      height: 1px;
+      padding: 0px;
+    }
+    .row div .title-text{
+      padding-top: 60px !important;
+      font-size: 25px;
+    }
+    .integer-12{
+      font-size: 34px;
+      color: #0f7675;
+      padding-top: 108px;
+      padding-left: 69px;
+    }
+    .integer-34{
+      font-size: 34px;
+      color: #0f7675;
+      padding-top: 99px;
+      padding-left: 69px;
+    }
+    .header-12{
+      font-size: 23px;
+      font-weight: bold;
+      padding-top: 60px;
+    }
+     .header-34{
+      padding-top: 50px;
+      font-size: 23px;
+      font-weight: bold;
+    }
+    .string-34{
+      padding-bottom: 50px;
+      font-size: 16px ;
+      line-height: 25px;
+    }
+    // develop-zone : end
+
+    // parent-zone : begin
+      .parent-zone .title-field{
+        font-size: 25px !important;
+        color: #0f7675 !important;
+      }
+    // parent-zone : end
+
+    // footer-zone : begin
+    .horizontal-line-bottom{
+      padding: 0px !important;
+      
+    }
+    b, strong{
+      color: #0f7675 !important; 
+    }
+    
+    // footer-zone : end
+
+    // footer-bottom-zone : begin
+
+    .text-footer-left{
+      color: #F1F1F1;
+    }
+
+
+
+
+    // footer-bottom-zone : end
+
+
+
+
+
+
+  }
+}
+
+
+
