@@ -36,9 +36,11 @@
       line-height: 25px;
       text-align: center;
       font-color: black;
+      padding-top: 50px;
     }
     .row .font-block{
       text-align: center;
+      padding-top: 70px;
     }
     .awesome .fontawesome-rectangle::before{
       height: 118px;
@@ -58,6 +60,7 @@
       .lorem-text{
         text-align: center;
         font-size: 16px;
+        padding-bottom: 70px;
       }
     }  
     // fontawesome-zone end
@@ -66,15 +69,17 @@
     .row .horizontal-line{
       height: 1px;
       padding: 0px;
+      width: 100%;
     }
     .row div .title-text{
       padding-top: 60px !important;
       font-size: 25px;
+      font-weight: bold;
     }
     .integer-12{
       font-size: 34px;
       color: #0f7675;
-      padding-top: 108px;
+      padding-top: 115px;
       padding-left: 69px;
     }
     .integer-34{
@@ -86,7 +91,7 @@
     .header-12{
       font-size: 23px;
       font-weight: bold;
-      padding-top: 60px;
+      padding-top: 68px;
     }
      .header-34{
       padding-top: 50px;
@@ -101,21 +106,38 @@
     // develop-zone : end
 
     // parent-zone : begin
-      .parent-zone .title-field{
-        font-size: 25px !important;
+      p .title-field{
+        font-size: 25px ;
         color: #0f7675 !important;
       }
     // parent-zone : end
 
     // footer-zone : begin
     .horizontal-line-bottom{
-      padding: 0px !important;
+      padding: 0px ;
+      width: 100%;
       
     }
     b, strong{
       color: #0f7675 !important; 
     }
-    
+    .title-footer{
+      padding-top: 80px;
+      font-weight: bold;
+      color: #0f7675;
+      padding-left: 185px;
+      p{
+        font-size: 13px;
+        padding-top: 0px;
+        padding-bottom: 0px;
+      }
+    }
+    .footer-text-responsive{
+      color: #0f7675;
+    }
+
+
+
     // footer-zone : end
 
     // footer-bottom-zone : begin
