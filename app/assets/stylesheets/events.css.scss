@@ -312,7 +312,74 @@
     .string-12, .string-34{
       line-height: 35px;
     }
-    
+    .row .title-footer{
+      color: #0f7675;
+      text-align: center;
+      padding-top: 10px;
+    }
+      .content{
+        text-align: center;
+        padding-top: 10px;
+        padding-bottom: 10px;
+      }
+      .subcontent-zone a{
+        text-align: center;
+        color: #0f7675;
+        padding-bottom: 10px;
+
+      }
+      div.subcontent-zone{
+        text-align: center
+      }
+      .footer-zone{
+        background-color: #F9F9F9;
+      }
+      .footer-bottom-zone{
+        background-color: #F1F1F1;
+        margin-bottom: 22px;
+      }
+      .text-footer-bottom{
+        text-align: center;
+        padding-top: 16px;
+      }
+      .font-awesome-footer-right{
+        text-align: center;
+      }
+      .face-icon{
+      color: #3c5a96;
+      }
+      .instagram-icon{
+      color: #8c3db7;
+      }
+      .twitter-icon{
+      color: #36abdf;
+      }
+
+      .carousel-item{
+        img{
+          height: 160px;
+          margin-right: 20px;
+          margin-left: 20px;
+          border: 1px solid #ddd;
+          border-radius: 4px;
+          padding: 5px;
+          width: 160px;
+          margin-left: 133px;
+        }
+        img:hover {
+    box-shadow: 0 0 2px 1px rgba(0, 140, 186, 0.5);
+        }
+      }
+      div.lorem-box{
+        padding-left: 45px;
+        text-align: center;
+      }
+      .carousel-indicators{
+        display: none;
+      }
+      .font-awesome-footer-right{
+        font-size: 2em;
+      }
   }
 
 
