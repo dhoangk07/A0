@@ -122,15 +122,35 @@
           height: 125px;
           margin-right: 20px;
           margin-left: 20px;
+          border: 1px solid #ddd;
+          border-radius: 4px;
+          padding: 5px;
+          width: 130px;
+        }
+        img:hover {
+    box-shadow: 0 0 2px 1px rgba(0, 140, 186, 0.5);
         }
       }
       .lorem-box{
-        border: 1px solid red;
-        width: 185px;
-        height: 200px;
+        background-color: white;
+        border: 1px solid transparent;
+        width: 296px;
+        height: 154px;
         padding-left: 11px;
         margin-left: 0px;
+        box-shadow: -15px 0px 10px -15px #111; 
       }
+      #carousel-indicators.active{
+        background-color: #0f7675 ;
+        position: relative;
+        bottom:-70px;
+      }
+
+      #carousel-indicators{
+        border-color: #0f7675 ;
+        bottom:-70px;
+      }
+
     // parent-zone : end
 
     // footer-zone : begin
@@ -183,27 +203,176 @@
     }
     .face-icon{
       color: #3c5a96;
+      float: right;
+      padding-right: 5px;
     }
     .instagram-icon{
       color: #8c3db7;
+      float: right;
+      padding-right: 5px;
     }
     .twitter-icon{
       color: #36abdf;
+      float: right;
+      padding-right: 5px;
     }
     .font-awesome-footer-right{
       padding-top: 35px;
     }
-
-
-
     // footer-bottom-zone : end
-
-
-
-
-
-
   }
+
+
+  @media (min-width: 0px) and (max-width: 576px){ 
+    .navbar-style-top{
+      background-color: #0f7675;
+    }
+    .undernavbar-style{
+      background-color: #0f7675;
+      p {
+        color: white;
+        text-align: center;
+      }
+    }
+    .content-text .integer {
+      padding-top: 75px;
+      padding-left: 20px;
+      font-size: 25px;
+    }
+    .row div .title-text {
+      font-size: 20px;
+      text-align: center;
+      font-weight: bold;
+    }
+    .header{
+      font-size: 17px ;
+      margin-bottom: 0px;
+    }
+    .row p.title-parent-field {
+      font-size: 27px ;
+      padding-top: 0px ;
+    }
+    .row div.header-parent-zone{
+      padding-bottom: 0px ;
+      padding-top:  0px ;
+    }
+    .row div .fontawesome{
+      display: inline-block;
+      text-align: center;
+      float: none;
+      padding-left: 45px;
+      color: #0f7675;
+      p{
+        color: black;
+      }
+    }
+    .fontawesome-rectangle::before {
+      display: none;
+    }
+    .navbar-dark button:focus{
+      outline: 1px dotted transparent;
+    }
+    .navbar-nav .nav-link {
+      text-align: center;
+    }
+    .horizontal-line {
+      border-bottom: transparent;
+      width: 100%;
+    }
+    .footer-zone div.subcontent-zone a:hover{
+      background-color: #F1F1F1;
+    }
+    .footer-bottom-zone .text-footer-left, .vertical-pipe{
+      color: #aaaaaa;
+      padding-top: 7px;
+      text-align: center;
+    }
+    .font-awesome-footer-right i.fa-2x{
+      font-size: 1em !important;
+      display: center;
+    }
+    .footer-bottom-zone{
+      height: 92px !important;
+    }
+    .integer-12, .integer-34 {
+      color: #0f7675;
+      font-size: 24px;
+      padding-left: 11px;
+      padding-top: 45px;
+    }
+    .header-12, .header-34{
+      font-weight: bold;
+    }
+    .title-field{
+      color: #0f7675;
+      font-size: 26px;
+      padding-top: 20px;
+      padding-bottom: 20px;
+    }
+    .string-12, .string-34{
+      line-height: 35px;
+    }
+    
+  }
+
+
+  @media (min-width: 577px) and (max-width: 992px){ 
+    .navbar{
+    border-radius: 0px !important;
+    }
+    .navbar-dark button:focus{
+      outline: 1px dotted transparent;
+    }
+    .navbar-nav .nav-link {
+      text-align: center;
+    }
+    .horizontal-line {
+      border-bottom: transparent;
+    }
+    .undernavbar-style1 .title{
+      margin-left: 50px;
+    }
+    .undernavbar-style1 .string{
+      margin-left: 176px;
+    }
+    .horizontal-line {
+      border-bottom: transparent;
+      height: 10px;
+    }
+    .row div .title-text{
+      padding-top: 0px;
+      padding-bottom: 5px;
+      padding-left: 25px;
+    }
+    .header{
+      font-size: 17px !important;
+      padding-bottom: 5px;
+      margin-bottom: 5px;
+      padding-left: 0px;
+    }
+    .integer{
+      font-size: 27px !important;
+      padding-top: 40px;
+      padding-left: 40px;
+    }
+    .string{
+      padding-left: 0px !important;
+    }
+    .footer-zone div.subcontent-zone a:hover{
+      background-color: #F1F1F1;
+    }
+    .footer-bottom-zone .text-footer-left, .vertical-pipe{
+      color: #aaaaaa;
+      padding-top: 7px;
+    }
+    .fa-2x{
+      font-size: 2em !important;
+    }
+    .footer-zone div.subcontent-zone a:hover{
+      background-color: #F1F1F1;
+    }
+  } 
+
 }
 
 
